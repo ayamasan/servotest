@@ -32,5 +32,5 @@ basic.forever(function () {
     パルス幅 = Math.map(角度, 0, 180, 開始時間, 終了時間)
     pins.servoSetPulse(AnalogPin.P8, パルス幅)
     pins.servoSetPulse(AnalogPin.P9, パルス幅)
-    basic.pause(20)
+    basic.pause(30)
 })
